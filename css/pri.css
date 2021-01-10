@@ -1,0 +1,19 @@
+aside img {
+  width: 100%;
+}
+
+main p {
+  margin: 50px 0;
+}
+
+.dec_moppy {
+  top: 0vh;
+  left: 1%;
+  animation: dec_top 1.5s ease-in-out .5s infinite alternate;
+}
+
+.dec_sabu {
+  bottom: 48vh;
+  right: 1%;
+  animation: dec_bottom 1.5s ease-in-out .5s infinite alternate;
+}

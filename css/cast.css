@@ -1,0 +1,38 @@
+.char, .position {
+  font-size: 1.3vw;
+  margin: 5px 10px;
+  border-bottom: solid 1px #fff9fe;
+  padding-left: 1em;
+}
+
+.voice, .staff {
+  text-align: center;
+  font-size: 1.7vw;
+  margin-bottom: 70px;
+}
+
+.col-xs-6 {
+  padding: 0;
+  width: 50%;
+}
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.char span, .voice span, .position span, .staff span {
+  color: #f6ae2d;
+}
+
+.dec_moppy {
+  bottom: 48vh;
+  right: 1%;
+  animation: dec_bottom 1.5s ease-in-out .5s infinite alternate;
+}
+
+.dec_sabu {
+  top: 0vh;
+  left: 1%;
+  animation: dec_top 1.5s ease-in-out .5s infinite alternate;
+}

@@ -1,0 +1,16 @@
+h3 {
+  font-size: 2vw;
+  margin: 10px 0;
+}
+
+.dec_moppy {
+  top: 0vh;
+  right: 3%;
+  animation: dec_top 1.5s ease-in-out .5s infinite alternate;
+}
+
+.dec_sabu {
+  bottom: 48vh;
+  left: 3%;
+  animation: dec_bottom 1.5s ease-in-out .5s infinite alternate;
+}

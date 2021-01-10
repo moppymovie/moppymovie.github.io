@@ -1,0 +1,91 @@
+html {
+  margin: 0;
+}
+
+input {
+  display: none;
+}
+
+label{
+  background: #f6ae2d;
+  color: #fff;
+  display: block;
+  margin: 0;
+  margin-top: 20px;
+  padding: 10px 3em 10px 1em;
+  position: relative;
+}
+
+label:after{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: '\f107';
+  display: block;
+  padding: 10px 20px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+
+.theater_content{
+  display: none;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+input:checked + label:after{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: '\f106';
+}
+
+input:checked + label + .theater_content{
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  visibility: visible;
+}
+
+main ul {
+  list-style: none;
+  padding: 0;
+  color: #386fa4;
+}
+
+main ul li {
+  height: 40px;
+  line-height: 40px;
+  background-color: #fff9fe;
+  padding-left: 1em;
+  border-bottom: solid 1px #386fa4;
+}
+
+.theater_label{
+  background: #ddd;
+  color: #386fa4;
+  margin: 0;
+  border-bottom: solid 1px #386fa4;
+  
+}
+
+.theater_label + .theater_content:last-child {
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.dec_moppy {
+  top: 0vh;
+  right: 3%;
+  animation: dec_top 1.5s ease-in-out .5s infinite alternate;
+}
+
+.dec_sabu {
+  bottom: 48vh;
+  left: 3%;
+  animation: dec_bottom 1.5s ease-in-out .5s infinite alternate;
+}

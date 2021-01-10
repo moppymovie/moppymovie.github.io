@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+
+aside {
+  border-bottom: dotted 3px #fff9fe;
+  padding: 40px 20px;
+}
+
+.date {
+  text-align: center;
+  background-color: #f6ae2d;
+  font-size: 1.5vw;
+  width: 7em;
+  font-family: 'Fredoka One', cursive;
+}
+
+aside img {
+  width: 100%;
+  margin: 10px 0 20px 0;
+}
+
+aside:last-child {
+  border-bottom: none;
+}
+
+aside a[download="moppy_colorting.jpg"] {
+  display: block;
+  margin: 10px auto;
+  width: 21vw;
+  height: 5vw;
+  line-height: 5vw;
+  color: #386fa4;
+  font-size: 2.5vw;
+  font-weight: 600;
+  text-align: center;
+  background-color: #fff9fe;
+  transition: .3s;
+}
+
+aside a[download="moppy_colorting.jpg"]:hover {
+  text-decoration: none;
+  background-color: #f6ae2d;
+  color: #fff9fe;
+}
+
+aside h4 {
+  font-size: 20px;
+  margin: 30px 0 10px 0;
+}
+
+.dec_moppy {
+  top: 0vh;
+  right: 3%;
+  animation: dec_top 1.5s ease-in-out .5s infinite alternate;
+}
+
+.dec_sabu {
+  bottom: 48vh;
+  left: 3%;
+  animation: dec_bottom 1.5s ease-in-out .5s infinite alternate;
+}
