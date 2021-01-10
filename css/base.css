@@ -335,3 +335,7 @@ footer p {
     top: -9.5px;
   
 }
+
+  main {
+    box-shadow: 10px 10px rgb(246, 174, 45);
+  }
