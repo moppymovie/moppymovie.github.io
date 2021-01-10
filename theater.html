@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>劇場リスト | 『映画もっぴー インターネット大冒険』 公式サイト</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/theater.css">
+</head>
+
+<body>
+  <nav id="nav">
+    <ul>
+      <a href="index.html">
+        <li class="logo"><img src="img/logo.png"></li>
+      </a>
+      <a href="story.html">
+        <li>ストーリー</li>
+      </a>
+      <a href="news.html">
+        <li>ニュース</li>
+      </a>
+      <a href="char.html">
+        <li>キャラクター</li>
+      </a>
+      <a href="notice.html">
+        <li>予告編</li>
+      </a>
+      <a href="pri.html">
+        <li>入場特典</li>
+      </a>
+      <a href="cast.html">
+        <li>キャスト<br>スタッフ</li>
+      </a>
+      <a href="song.html">
+        <li>主題歌</li>
+      </a>
+      <a href="dvd.html">
+        <li>えほん<br>DVD・Blu-ray</li>
+      </a>
+      <a href="theater.html">
+        <li>劇場リスト</li>
+      </a>
+      <a href="special.html">
+        <li>スペシャル</li>
+      </a>
+    </ul>
+  </nav>
+
+  <div class="hamnav">
+    <div class="logo">
+      <img src="img/phone_logo.png">
+    </div>
+
+    <nav id="phone_nav">
+      <h2>メニュー</h2>
+      <ul>
+        <a href="index.html">
+          <li>トップ</li>
+        </a>
+        <a href="story.html">
+          <li>ストーリー</li>
+        </a>
+        <a href="news.html">
+          <li>ニュース</li>
+        </a>
+        <a href="char.html">
+          <li>キャラクター</li>
+        </a>
+        <a href="notice.html">
+          <li>予告編</li>
+        </a>
+        <a href="pri.html">
+          <li>入場特典</li>
+        </a>
+        <a href="cast.html">
+          <li>キャスト・スタッフ</li>
+        </a>
+        <a href="song.html">
+          <li>主題歌</li>
+        </a>
+        <a href="dvd.html">
+          <li>絵本・DVD・Blu-ray</li>
+        </a>
+        <a href="theater.html">
+          <li>劇場リスト</li>
+        </a>
+        <a href="special.html">
+          <li>スペシャル</li>
+        </a>
+      </ul>
+    </nav>
+
+    <div class="hamburger" id="js_hamburger">
+      <span class="hamburger_line hamburger_line1"></span>
+      <span class="hamburger_line hamburger_line2"></span>
+      <span class="hamburger_line hamburger_line3"></span>
+    </div>
+  </div>
+
+  <main>
+    <h2>劇場リスト</h2>
+    <section>
+      <aside>
+        <input id="hokkaido" type="checkbox" class="checkbox">
+        <label for="hokkaido">
+          北海道（北海道）
+        </label>
+        <div class="theater_content">
+          <ul>
+            <li>HYOEIシネマズ札幌</li>
+            <li>シネマックス旭川</li>
+            <li>グリーンシネマ旭川</li>
+            <li>グリーンシネマ小樽</li>
+            <li>グリーンシネマ北見</li>
+            <li>グリーンシネマ釧路</li>
+            <li>苫小牧シネマフロンティア</li>
+          </ul>
+        </div>
+
+        <input id="tohoku" type="checkbox">
+        <label for="tohoku">
+          東北地方（青森 / 岩手 / 宮城 / 秋田 / 山形 / 福島）
+        </label>
+        <div class="theater_content">
+
+          <input id="aomori" class="theater_check" type="checkbox">
+          <label class="theater_label" for="aomori">
+            青森県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>青森シネマワールド</li>
+              <li>HYOEIシネマズ下田</li>
+              <li>グリーンシネマ弘前</li>
+            </ul>
+          </div>
+
+          <input id="iwate" class="theater_check" type="checkbox">
+          <label class="theater_label" for="iwate">
+            岩手県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>シネマックス盛岡</li>
+              <li>東映画劇場</li>
+              <li>グリーンシネマ北上</li>
+            </ul>
+          </div>
+       
+          <input id="miyagi" class="theater_check" type="checkbox">
+          <label class="theater_label" for="miyagi">
+            宮城県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズ仙台</li>
+              <li>グリーンシネマ石巻</li>
+              <li>グリーンシネマ名取</li>
+              <li>古川シネマフロンティア</li>
+            </ul>
+          </div>
+       
+          <input id="akita" class="theater_check" type="checkbox">
+          <label class="theater_label" for="akita">
+            秋田県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>グリーンシネマ秋田</li>
+              <li>大曲シネマワールド</li>
+            </ul>
+          </div>
+       
+          <input id="yamagata" class="theater_check" type="checkbox">
+          <label class="theater_label" for="yamagata">
+            山形県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>シネマフォーラム山形</li>
+              <li>グリーンシネマ米沢</li>
+              <li>グリーンシネマ天童</li>
+              <li>ムービズムやまがた</li>
+            </ul>
+          </div>
+       
+          <input id="hukusima" class="theater_check" type="checkbox">
+          <label class="theater_label" for="hukusima">
+            福島県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>グリーンシネマ福島</li>
+              <li>シネマフォーラム福島</li>
+              <li>グリーンシネマ郡山</li>
+              <li>いわき小名浜シネマワールド</li>
+            </ul>
+          </div>
+        </div>
+        
+        <input id="kanto" type="checkbox">
+        <label for="kanto">
+          関東地方（東京 / 神奈川 / 埼玉 / 千葉 / 栃木 / 群馬）
+        </label>
+        <div class="theater_content">
+
+          <input id="tokyo" class="theater_check" type="checkbox">
+          <label class="theater_label" for="tokyo">
+            東京都
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズ日比谷</li>
+              <li>HYOEIシネマズ日本橋</li>
+              <li>HYOEIシネマズ六本木ヒルズ</li>
+              <li>シネマシティお台場</li>
+              <li>HYOEIシネマズ品川</li>
+              <li>HYOEIシネマズ渋谷</li>
+              <li>HYOEIシネマズ新宿</li>
+              <li>新宿シネマラリー</li>
+              <li>HYOEIシネマズ池袋</li>
+              <li>シネマックス池袋</li>
+              <li>グランドシネマワールド</li>
+              <li>HYOEIシネマズ上野</li>
+              <li>HYOEIシネマズ錦糸町</li>
+              <li>OMOTEnaSea</li>
+              <li>グリーンシネマ板橋</li>
+              <li>HYOEIシネマズ木場</li>
+              <li>シネマシティ豊洲</li>
+              <li>シネマシティとしまえん</li>
+              <li>HYOEIシネマズ大山</li>
+              <li>シネマフロンティア亀有</li>
+              <li>シネマックス船堀</li>
+              <li>HYOEIシネマズ二子玉川</li>
+              <li>HYOEIシネマズ西新井</li>
+              <li>シネマフロンティア吉祥寺</li>
+              <li>シネマワールド立川</li>
+              <li>HYOEIシネマズ南大沢</li>
+              <li>HYOEIシネマズ府中</li>
+              <li>グリーンシネマ多摩</li>
+              <li>グリーンシネマ調布</li>
+            </ul>
+          </div>
+
+          <input id="kanagawa" class="theater_check" type="checkbox">
+          <label class="theater_label" for="kanagawa">
+            神奈川県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズラグーン横浜</li>
+              <li>シネマティック横浜</li>
+              <li>グリーンシネマみなとみらい</li>
+              <li>横浜シネマワールド</li>
+              <li>HYOEI上大岡</li>
+              <li>HYOEIシネマズ港北</li>
+              <li>グリーンシネマ港北ニュータウン</li>
+              <li>HYOEIシネマズ川崎</li>
+              <li>グリーンシネマ新百合ヶ丘</li>
+              <li>グリーンシネマ海老名</li>
+              <li>グリーンシネマ座間</li>
+              <li>HYOEIシネマズ小田原</li>
+              <li>シネマックス横須賀</li>
+            </ul>
+          </div>
+
+          <input id="saitama" class="theater_check" type="checkbox">
+          <label class="theater_label" for="saitama">
+            埼玉県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>シネマイズムさいたま</li>
+              <li>シネマシティ浦和</li>
+              <li>グリーンシネマ大宮</li>
+              <li>グリーンシネマ川口</li>
+              <li>シネマシティ三郷</li>
+              <li>グリーンシネマ大井</li>
+              <li>HYOEIシネマズラグーン富士見</li>
+              <li>グリーンシネマ熊谷</li>
+              <li>シネマワールド入間</li>
+              <li>グリーンシネマ羽生</li>
+              <li>HYOEIシネマ所沢</li>
+              <li>シネマシティ春日部</li>
+              <li>グリーンシネマ上里</li>
+            </ul>
+          </div>
+
+          <input id="tiba" class="theater_check" type="checkbox">
+          <label class="theater_label" for="tiba">
+            千葉県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>幕張シネマワールド</li>
+              <li>シネマシティ蘇我</li>
+              <li>HYOEIシネマズラグーン船橋</li>
+              <li>HYOEIシネマズラグーン八千代緑が丘</li>
+              <li>HYOEIシネマズ市川</li>
+              <li>グリーンシネマ千葉ニュータウン</li>
+              <li>成田シネマロンティア</li>
+              <li>旭シネマワールド</li>
+              <li>HYOEIシネマズ柏</li>
+              <li>シネマシティ松戸</li>
+              <li>HYOEIシネマズ市原</li>
+              <li>シネマフロンティア木更津</li>
+              <li>グリーンシネマ銚子</li>
+            </ul>
+          </div>
+
+          <input id="ibaraki" class="theater_check" type="checkbox">
+          <label class="theater_label" for="ibaraki">
+            茨城県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズ水戸</li>
+              <li>シネマシティ水戸</li>
+              <li>HYOEIシネマズひたちなか</li>
+              <li>土浦シネマワールド</li>
+              <li>HYOEIシネマズつくば</li>
+            </ul>
+          </div>
+
+          <input id="totigi" class="theater_check" type="checkbox">
+          <label class="theater_label" for="totigi">
+            栃木県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズ宇都宮</li>
+              <li>HYOEIシネマズ佐野</li>
+              <li>小山シネマワールド</li>
+              <li>シネマシティ那須塩原</li>
+              <li>シネマシティあしかが</li>
+            </ul>
+          </div>
+          
+          <input id="gunma" class="theater_check" type="checkbox">
+          <label class="theater_label" for="gunma">
+            群馬県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>シネマシティ前橋</li>
+              <li>HYOEIシネマズ高崎</li>
+              <li>グリーンシネマ高崎</li>
+              <li>グリーンシネマ太田</li>
+              <li>伊勢崎シネマワールド</li>
+            </ul>
+          </div>
+        </div>
+        
+        <input id="chubu" type="checkbox">
+        <label for="chubu">
+          中部地方（新潟 / 長野 / 山梨 / 富山 / 石川 / 福井 / 愛知 / 岐阜 / 静岡）
+        </label>
+        <div class="theater_content">
+
+          <input id="nigata" class="theater_check" type="checkbox">
+          <label class="theater_label" for="nigata">
+            新潟県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>札幌シネマズ</li>
+              <li>シネマックス旭川</li>
+              <li>グリーンシネマ旭川</li>
+              <li>グリーンシネマ小樽</li>
+              <li>グリーンシネマ北見</li>
+              <li>グリーンシネマ釧路</li>
+              <li>苫小牧シネマロンティア</li>
+            </ul>
+          </div>
+
+          <input id="nagano" class="theater_check" type="checkbox">
+          <label class="theater_label" for="nagano">
+            長野県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズ長野</li>
+              <li>グリーンシネマ松本</li>
+              <li>HYOEIシネマズ上田</li>
+              <li>インシネマ</li>
+              <li>飯田トキノ劇場</li>
+            </ul>
+          </div>
+
+          <input id="yamanasi" class="theater_check" type="checkbox">
+          <label class="theater_label" for="yamanasi">
+            山梨県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズ甲府</li>
+            </ul>
+          </div>
+         
+          <input id="toyama" class="theater_check" type="checkbox">
+          <label class="theater_label" for="toyama">
+            富山県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズ富山</li>
+              <li>HYOEIシネマズ高岡</li>
+            </ul>
+          </div>
+
+          <input id="isikawa" class="theater_check" type="checkbox">
+          <label class="theater_label" for="isikawa">
+            石川県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>シネマシティ金沢</li>
+              <li>グリーンシネマ金沢</li>
+              <li>グリーンシネマ新小松</li>
+              <li>かほくシネマワールド</li>
+            </ul>
+          </div>
+
+          <input id="hukui" class="theater_check" type="checkbox">
+          <label class="theater_label" for="hukui">
+            福井県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>アウトシネマ</li>
+              <li>福井シネマフロンティア</li>
+              <li>HYOEIシネマズ鯖江</li>
+              <li>シネマシティ敦賀</li>
+            </ul>
+          </div>
+
+          <input id="aiti" class="theater_check" type="checkbox">
+          <label class="theater_label" for="aiti">
+            愛知県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>グリーンシネマ名古屋</li>
+              <li>シネマックス中川</li>
+              <li>グリーンシネマワンダー</li>
+              <li>HYOEIシネマズ名古屋</li>
+              <li>グリーンシネマ大高</li>
+              <li>シネマシティ豊橋</li>
+              <li>シネマシティ岡崎</li>
+              <li>グリーンシネマ豊田</li>
+              <li>小牧シネマフロンティア</li>
+              <li>HYOEIシネマズ木曽川</li>
+              <li>HYOEIシネマズ津島</li>
+              <li>豊川シネマフロンティア</li>
+              <li>グリーンシネマ豊川
+              <li>安城シネマフロンティア</li>
+              <li>シネマシティ稲沢</li>
+              <li>HYOEIシネマズ東浦</li>
+              <li>シネマシティ阿久比</li>
+              <li>HYOEIシネマズ赤池</li>
+              <li>シネマックス三好</li>
+            </ul>
+          </div>
+          
+          <input id="gihu" class="theater_check" type="checkbox">
+          <label class="theater_label" for="gihu">
+            岐阜県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズ岐阜</li>
+              <li>シネマミー</li>
+              <li>大垣シネマフロンティア</li>
+            </ul>
+          </div>
+          
+          <input id="sizuoka" class="theater_check" type="checkbox">
+          <label class="theater_label" for="sizuoka">
+            静岡県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズ静岡</li>
+              <li>HYOEIシネマズ浜松</li>
+              <li>HYOEIシネマズラグーン磐田</li>
+              <li>グリーンシネマ富士宮</li>
+              <li>シネマシティ沼津</li>
+              <li>みしまシネマワールド</li>
+            </ul>
+          </div>
+          
+        </div>
+        
+        <input id="kinki" type="checkbox">
+        <label for="kinki">
+          近畿地方（大阪 / 兵庫 / 京都 / 滋賀 / 奈良 / 和歌山）
+        </label>
+        <div class="theater_content">
+
+          <input id="osaka" class="theater_check" type="checkbox">
+          <label class="theater_label" for="osaka">
+            大阪府
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズ梅田</li>
+              <li>梅田ボルト8</li>
+              <li>HYOEIシネマズなんば</li>
+              <li>あべのシネマワールド</li>
+              <li>シネマシティ高槻</li>
+              <li>グリーンシネマ茨木</li>
+              <li>HYOEIシネマズラグーンEXPOCITY</li>
+              <li>HYOEIシネマズ箕面</li>
+              <li>グリーンシネマ大日</li>
+              <li>シネマシティ枚方</li>
+              <li>HYOEIシネマズラグーン泉北</li>
+              <li>HYOEIシネマズ堺</li>
+              <li>シネマシティ岸和田</li>
+            </ul>
+          </div>
+
+          <input id="hyogo" class="theater_check" type="checkbox">
+          <label class="theater_label" for="hyogo">
+            兵庫県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズ神戸</li>
+              <li>HYOEIシネマズ西宮</li>
+              <li>シネマシティあまがさき</li>
+              <li>HYOEIシネマズ伊丹</li>
+              <li>グリーンシネマ明石</li>
+              <li>グリーンシネマ三田</li>
+              <li>加古川シネマロンティア</li>
+              <li>シネマックス姫路</li>
+            </ul>
+          </div>
+
+          <input id="kyoto" class="theater_check" type="checkbox">
+          <label class="theater_label" for="kyoto">
+            京都府
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズ二条</li>
+              <li>グリーンシネマ京都桂川</li>
+              <li>シネマシティ京都</li>
+              <li>シネマイズム京都</li>
+              <li>福知山シネマワールド</li>
+              <li>舞鶴シネマフロンティア</li>
+            </ul>
+          </div>
+
+          <input id="siga" class="theater_check" type="checkbox">
+          <label class="theater_label" for="siga">
+            滋賀県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>シネマシティ大津</li>
+              <li>彦根シネマワールド</li>
+              <li>グリーンシネマ草津</li>
+              <li>グリーンシネマ近江八幡</li>
+            </ul>
+          </div>
+
+          <input id="nara" class="theater_check" type="checkbox">
+          <label class="theater_label" for="nara">
+            奈良県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズ橿原</li>
+              <li>グリーンシネマ西大和</li>
+              <li>グリーンシネマ大和郡山</li>
+            </ul>
+          </div>
+
+          <input id="wakayama" class="theater_check" type="checkbox">
+          <label class="theater_label" for="wakayama">
+            和歌山県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズ和歌山</li>
+              <li>グリーンシネマ和歌山</li>
+              <li>MOVIX御坊</li>
+              <li>MOVIX田辺</li>
+              <li>MOVIX南紀</li>
+            </ul>
+          </div>
+        </div>
+        
+        <input id="tyugoku" type="checkbox">
+        <label for="tyugoku">
+          中国・四国地方（鳥取 / 島根 / 岡山 / 広島 / 山口 / 徳島 / 香川 / 愛媛 / 高知）
+        </label>
+        <div class="theater_content">
+
+          <input id="tottori" class="theater_check" type="checkbox">
+          <label class="theater_label" for="tottori">
+            鳥取県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>鳥取シネマズ</li>
+              <li>日吉津シネマロンティア</li>
+            </ul>
+          </div>
+
+          <input id="simane" class="theater_check" type="checkbox">
+          <label class="theater_label" for="simane">
+            島根県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>松江シネマ</li>
+              <li>出雲シネマフロンティア</li>
+            </ul>
+          </div>
+
+          <input id="岡山" class="theater_check" type="checkbox">
+          <label class="theater_label" for="岡山">
+            岡山県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズ岡南</li>
+              <li>グリーンシネマ岡山</li>
+              <li>シネマシティ倉敷</li>
+            </ul>
+          </div>
+
+          <input id="hirosima" class="theater_check" type="checkbox">
+          <label class="theater_label" for="hirosima">
+            広島県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズ緑井</li>
+              <li>シネマックス広島</li>
+              <li>グリーンシネマ広島</li>
+              <li>広島ボルト11</li>
+              <li>シネマシティ東広島</li>
+              <li>福山シネマワールド</li>
+            </ul>
+          </div>
+
+          <input id="yamaguti" class="theater_check" type="checkbox">
+          <label class="theater_label" for="yamaguti">
+            山口県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>宇部シネマワールド</li>
+              <li>シネマシティ周南</li>
+              <li>グリーンシネマ防府</li>
+              <li>シネマティック下関</li>
+            </ul>
+          </div>
+
+          <input id="tokusima" class="theater_check" type="checkbox">
+          <label class="theater_label" for="tokusima">
+            徳島県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>グリーンシネマ徳島</li>
+              <li>シネマワールド北島</li>
+            </ul>
+          </div>
+          
+          <input id="kagawa" class="theater_check" type="checkbox">
+          <label class="theater_label" for="kagawa">
+            香川県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>グリーンシネマ高松東</li>
+              <li>グリーンシネマ宇多津</li>
+              <li>グリーンシネマ綾川</li>
+            </ul>
+          </div>
+          
+          <input id="ehime" class="theater_check" type="checkbox">
+          <label class="theater_label" for="ehime">
+            愛媛県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>衣山シネマワールド</li>
+              <li>シネマワールド重信</li>
+              <li>シネマシティ今治</li>
+              <li>グリーンシネマ今治</li>
+              <li>HYOEIシネマズ新居浜</li>
+            </ul>
+          </div>
+          
+          <input id="koti" class="theater_check" type="checkbox">
+          <label class="theater_label" for="koti">
+            高知県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズ高知</li>
+            </ul>
+          </div>
+        </div>
+        
+        <input id="kyushu" type="checkbox">
+        <label for="kyushu">
+          九州地方（福岡 / 佐賀 / 長崎 / 熊本 / 大分 / 宮崎 / 鹿児島 / 沖縄）
+        </label>
+        <div class="theater_content">
+
+          <input id="fukuoka" class="theater_check" type="checkbox">
+          <label class="theater_label" for="fukuoka">
+            福岡県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズ天神</li>
+              <li>グランドシネマキャナルシティ</li>
+              <li>博多シネマワールド</li>
+              <li>イーストICHIRAN</li>
+              <li>シネマシティ小倉</li>
+              <li>小倉シネマワールド</li>
+              <li>戸畑シネマフロンティア</li>
+              <li>シネマタウン久留米</li>
+              <li>シネマシティ久山</li>
+              <li>グリーンシネマ福岡</li>
+              <li>シネマタウン筑紫野</li>
+            </ul>
+          </div>
+
+          <input id="saga" class="theater_check" type="checkbox">
+          <label class="theater_label" for="saga">
+            佐賀県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>グリーンシネマ佐賀大和</li>
+              <li>HYOEIシネマズ佐賀</li>
+            </ul>
+          </div>
+
+          <input id="nagasaki" class="theater_check" type="checkbox">
+          <label class="theater_label" for="nagasaki">
+            長崎県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズ長崎</li>
+              <li>シネマシティ長崎</li>
+            </ul>
+          </div>
+
+          <input id="kumamoto" class="theater_check" type="checkbox">
+          <label class="theater_label" for="kumamoto">
+            熊本県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズ熊本</li>
+              <li>シネマシティ熊本</li>
+              <li>HYOEIシネマズ宇城</li>
+              <li>グリーンシネマ熊本</li>
+            </ul>
+          </div>
+
+          <input id="oita" class="theater_check" type="checkbox">
+          <label class="theater_label" for="oita">
+            大分県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズおおいた</li>
+              <li>大分シネマワールド</li>
+              <li>イイーユ別府</li>
+            </ul>
+          </div>
+
+          <input id="miyazaki" class="theater_check" type="checkbox">
+          <label class="theater_label" for="miyazaki">
+            宮崎県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>グランドシネマ宮崎</li>
+              <li>ミヤックスMT</li>
+              <li>ワンダフルシネティック</li>
+            </ul>
+          </div>
+          
+          <input id="kagosima" class="theater_check" type="checkbox">
+          <label class="theater_label" for="kagosima">
+            鹿児島県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>HYOEIシネマズ与次郎</li>
+              <li>鹿児島ボルト10</li>
+              <li>シネマワールドかごしま</li>
+              <li>サクラランドかごしま</li>
+            </ul>
+          </div>
+          
+          <input id="okinawa" class="theater_check" type="checkbox">
+          <label class="theater_label" for="okinawa">
+            沖縄県
+          </label>
+          <div class="theater_content">
+            <ul>
+              <li>シネマR</li>
+              <li>シネマシティ浦添</li>
+            </ul>
+          </div>
+        </div>
+        
+      </aside>
+    </section>
+  </main>
+
+  <div class="dec_moppy">
+    <img src="img/moppy2.png">
+  </div>
+  <div class="dec_sabu">
+    <img src="img/sabu1.png">
+  </div>
+
+  <footer>
+    <div class="f_logo">
+      <img src="img/logo_w.png">
+    </div>
+    <div class="banner">
+      <img src="img/banerM.jpg">
+      <img src="img/banerbook.jpg">
+    </div>
+    <p>©️けろなし・西宮書房・テレビ武庫川・スタジオケロン 2020</p>
+  </footer>
+  
+  <script src="js/hamburger.js"></script>
+</body>
+
+</html>
