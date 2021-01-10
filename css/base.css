@@ -333,9 +333,9 @@ footer p {
     transform: rotate(45deg);
     background-color: #386fa4;
     top: -9.5px;
-  
-}
+  }
 
   main {
     box-shadow: 5px 5px rgb(246, 174, 45);
   }
+}
